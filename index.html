@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discover Your World</title>
+    <!-- Task 1: Add the favicon link here -->
+    <link rel="icon" href="https://edube.org/uploads/media/default/0001/04/web-favicon.png" type="image/png">
+
+    <!-- Task 2: Add link to script here -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Task 3: Add an emoji here (U+1F30D -> &#x1F30D;) -->
+    <h1>Discover Your World &#x1F30D;</h1>
+
+    <p>Click the button to learn about the continent you're on and some famous geographical features.</p>
+
+    <!-- Task 4: Add a button for displaying geolocation information here -->
+    <button id="getLocation">Discover Location</button>
+
+    <br><br>
+
+    <!-- Dünya Haritası Görseli -->
+    <img src="https://edube.org/uploads/media/default/0001/04/continents.jpg" usemap="#image-map" alt="World Map">
+
+    <map name="image-map">
+        <!-- Task 5: Add area tags for continents here -->
+        <area shape="rect" coords="386,283,41,17" id="north-america" alt="North America" title="North America">
+        <area shape="rect" coords="209,501,358,288" id="south-america" alt="South America" title="South America">
+        <area shape="rect" coords="391,68,505,217" id="europe" alt="Europe" title="Europe">
+        <area shape="rect" coords="533,217,387,448" id="africa" alt="Africa" title="Africa">
+        <area shape="rect" coords="893,153,506,1" id="asia" alt="Asia" title="Asia">
+        <area shape="rect" coords="679,353,872,480" id="australia-and-oceania" alt="Australia and Oceania" title="Australia and Oceania">
+    </map>
+
+</body>
+</html>
